@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/1.css">
+</head>
+<body>
+    <div class="body-login">
+        <form action="/loginacc" method="post" class="login-form">
+            <!-- <img class="avatar" src="./images/avatar.svg" alt="">
+            <h2>Welcome</h2> -->
+            <div class="input-group">
+                <h1>Login</h1>
+                <h3>Login as</h3>
+                <div class="select">
+                    <select name="login_type">
+                        <option>Choose an option</option>
+                        <option value="admin">Admin</option>
+                        <option value="teacher(dean)">Teacher(Dean)</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
+                    </select>
+                </div>
+                <div class="txtb">
+                    <input name="username" type="text">
+                    <span data-placehoder="Username"></span>
+                </div>
+                <div class="txtb">
+                    <input name="password" type="password">
+                    <span data-placehoder="Password"></span>
+                </div>
+                <input type="submit" class="logbtn" value="Login">
+                <div class="bottom-text">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        </form>
+    
+    </div>
+    
+</body>
+</html>
